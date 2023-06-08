@@ -1,0 +1,63 @@
+$green: #195e4b;
+$lighter-green: #00da9d;
+$lightest-green: #caebe2;
+$red: #f33501;
+$pink: #ffa084;
+
+$width: 1440px;
+$header-height: 90px;
+$footer-height: 150px;
+$content-height: 1750px;
+
+$p-font-size: 18px;
+$p-font-size-large: 20px;
+$p-font-size-small: 16px;
+$h1-font-size: 48px;
+$h2-font-size: 32px;
+$h3-font-size: 24px;
+
+$margin: 32px;
+$margin-left: 48px;
+
+html {
+    font-size: $p-font-size;
+    color: $green;
+    background-color: $lightest-green;
+}
+
+body {
+    max-width: $width;
+    margin: auto;
+    text-align: center;
+}
+
+header, main, footer {
+    border: 1px $green;
+}
+
+h1 {
+    font-size: $h1-font-size;
+    font-weight: bold;
+}
+h2 {
+    font-size: $h2-font-size;
+}
+h3 {
+    font-size: $h3-font-size;
+}
+
+header {
+    height: $header-height;
+    background-color: $green;
+    color: $lighter-green;
+}
+
+footer {
+    height: $footer-height;
+    background-color: $green;
+    color: $lightest-green;
+}
+
+main {
+    height: $content-height;
+}
